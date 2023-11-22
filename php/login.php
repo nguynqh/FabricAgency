@@ -30,7 +30,7 @@ if ((isset($_POST['userName'])) && (isset($_POST['password']))) {
                 $_SESSION['password'] = $row['password'];
                 $_SESSION['account_name'] = $row['AdminName'];
                 echo($_SESSION['id']);
-                header("Location: ../web/main.php");
+                header("Location: ../pages/main.php");
                 exit();
             }
             // print_r($row);

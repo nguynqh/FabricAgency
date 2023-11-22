@@ -1,4 +1,4 @@
-<!-- header -->
+<!-- navbar -->
 <div class="nav-bar">
     <div class="navbar-logo">
         <a href="main.php">
