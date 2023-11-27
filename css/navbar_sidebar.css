@@ -175,12 +175,13 @@ body{
     z-index: 1;
     width: 100%;
 }
-        /* side bar */
+        /* ------------------- side bar ------------------------- */
 .side-bar{
     width: 18%;
     /* width: 4%;    resize thu gọn sidebar */
     height: 100%;
     background-color: aliceblue;
+    position: absolute;
 }
         /* side bar item */
 .sidebar-item{
@@ -219,4 +220,13 @@ body{
         /* sidebar active */
 .sidebar-active{
     background-color: rgb(188, 226, 222);
+}
+
+        /* ------------------------- content --------------------- */
+.page-body-wraper .main-content-wrap{
+    width: 82%;
+    height: 100%;
+    background-color: bisque;
+    position: absolute;
+    margin-left: 18%;
 }
