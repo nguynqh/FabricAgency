@@ -22,7 +22,9 @@
         <?php include '../base/navbar.php'; ?>
         <div class="page-body-wraper">
             <?php include '../base/sidebar.php'; ?>
-            <div class="content"></div>
+            <div class="main-content-wrap">
+                <div class="test">xin chaooooooo</div>
+            </div>
         </div>
     </div>
 </body>
