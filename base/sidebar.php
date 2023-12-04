@@ -20,9 +20,17 @@
         <li class="sidebar-item">
             <a href="#the loai">
                 <div class="sidebar-item-icon">
-                    <i class="bi bi-building-fill-gear"></i>
+                <i class="bi bi-building-fill-gear"></i>
                 </div>
                 <div class="sidebar-item-text">Suppliers</div>
+            </a>
+        </li>
+        <li class="sidebar-item">
+            <a href="#the loai">
+                <div class="sidebar-item-icon">
+                    <i class="bi bi-receipt-cutoff"></i>
+                </div>
+                <div class="sidebar-item-text">Receipt</div>
             </a>
         </li>
         <li class="sidebar-item">
@@ -42,7 +50,7 @@
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#order">
+            <a href="../pages/order.php">
                 <div class="sidebar-item-icon">
                     <i class="bi bi-receipt"></i>
                 </div>
