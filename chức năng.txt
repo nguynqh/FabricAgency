@@ -1,0 +1,11 @@
+==============Suppliers==========================
+-Thêm, Xóa, Sửa
+-Xem tất cả suppliers
+-Xem chi tiết suppliers
+-Xem các sản phẩm Suppliers đang cung cấp
+==============Customer===========================
+-Thêm, Xóa, Sửa
+-Xem tất cả
+-Xem chi tiết
+-Xem các đơn hàng của Customer
+-Xem filter

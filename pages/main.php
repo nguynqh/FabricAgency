@@ -1,8 +1,6 @@
 <?php 
-//    session_start();
-//    if (isset($_SESSION['id'])) {
-//        echo('hiiiiiii');
-//    }
+    session_start();
+    // if (isset($_SESSION['id'])) {
 
 // huy session
 // session_start(); 
@@ -26,14 +24,7 @@
             <?php include '../base/sidebar.php'; ?>
             <div class="main-content-wrap">
                 <div class="test">
-                    <?php
-                    session_start();
-                    if (isset($_SESSION['ID'])) {
-                        # code...
-                        echo('22222');
-                        echo($_SESSION['ID']);
-                    }
-                    ?>
+                    <?php echo($_SESSION['id']);?>
                 </div>
             </div>
         </div>

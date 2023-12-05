@@ -10,27 +10,11 @@
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#employee">
+            <a href="../pages/products.php">
                 <div class="sidebar-item-icon">
-                    <i class="bi bi-people-fill"></i>
+                    <i class="bi bi-archive"></i>
                 </div>
-                <div class="sidebar-item-text">Employee</div>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#the loai">
-                <div class="sidebar-item-icon">
-                <i class="bi bi-building-fill-gear"></i>
-                </div>
-                <div class="sidebar-item-text">Suppliers</div>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#the loai">
-                <div class="sidebar-item-icon">
-                    <i class="bi bi-receipt-cutoff"></i>
-                </div>
-                <div class="sidebar-item-text">Receipt</div>
+                <div class="sidebar-item-text">Products</div>
             </a>
         </li>
         <li class="sidebar-item">
@@ -44,17 +28,17 @@
         <li class="sidebar-item">
             <a href="#the loai">
                 <div class="sidebar-item-icon">
-                    <i class="bi bi-people"></i>
+                    <i class="bi bi-building-fill-gear"></i>
                 </div>
-                <div class="sidebar-item-text">Customer</div>
+                <div class="sidebar-item-text">Suppliers</div>
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="../pages/order.php">
+            <a href="#the loai">
                 <div class="sidebar-item-icon">
-                    <i class="bi bi-receipt"></i>
+                    <i class="bi bi-people"></i>
                 </div>
-                <div class="sidebar-item-text">Order</div>
+                <div class="sidebar-item-text">Customer</div>
             </a>
         </li>
     </ul>
