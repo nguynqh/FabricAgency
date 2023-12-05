@@ -3,7 +3,7 @@ $sname = "localhost";
 $uname = "root";
 $password = "";
 
-$db_name = "FabricAgency";
+$db_name = "fabricagency";
 
 $conn = mysqli_connect($sname,$uname,$password,$db_name);
 

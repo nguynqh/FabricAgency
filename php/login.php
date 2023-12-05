@@ -1,6 +1,6 @@
 <?php
 include "db_conn.php";
-session_start();
+// session_start();
 if ((isset($_POST['userName'])) && (isset($_POST['password']))) {
     function validate($data)
     {
@@ -19,17 +19,19 @@ if ((isset($_POST['userName'])) && (isset($_POST['password']))) {
         header("Location: ../index.php?error=Password is required");
         exit();
     } else {
-        // valid 
-        $sql = "SELECT * FROM account WHERE user_name = '$username' AND password = '$password' ";
+        // -----------------------------------valid---------------------- 
+        $sql = "SELECT * FROM account WHERE USERNAME = '$username' AND PASSWORD = '$password' ";
         $result = mysqli_query($conn, $sql);
-        if (mysqli_num_rows($result) === 1) {
+        if (mysqli_num_rows($result)) {
             $row = mysqli_fetch_assoc($result);
-            if ( ($row['user_name'] === $username) && ($row['password'] === $password) ) {
-                $_SESSION['id'] = $row['id'];
-                $_SESSION['username'] = $row['user_name'];
-                $_SESSION['password'] = $row['password'];
-                $_SESSION['account_name'] = $row['AdminName'];
-                echo($_SESSION['id']);
+            if ( ($row['USERNAME'] === $username) && ($row['PASSWORD'] === $password) ) {
+                session_start();
+                // echo('12313123');
+                $_SESSION['ID'] = $row['ID'];
+                $_SESSION['USERNAME'] = $row['USERNAME'];
+                $_SESSION['PASSWORD'] = $row['PASSWORD'];
+                $_SESSION['ACCOUNT_NAME'] = $row['ACCOUNT_NAME'];
+                // echo($_SESSION['ID']);
                 header("Location: ../pages/main.php");
                 exit();
             }
