@@ -25,7 +25,7 @@
     // print_r($_SESSION['fulldata']);
 
 
-    header("Location: ../pages/test_search_receipt.php");
+    header("Location: ../pages/test_search_receipt.php?search=true");
 
 
 ?>

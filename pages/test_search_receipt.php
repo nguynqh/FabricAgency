@@ -1,4 +1,9 @@
-<?php session_start();?>
+<?php 
+    session_start();
+    if (!isset($_GET['search'])) {
+        $_SESSION['fulldata'] = "SELECT sup_code, `date`, COUNT(`date`) AS total FROM bolt GROUP BY sup_code, `date`";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
